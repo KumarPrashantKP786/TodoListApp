@@ -1,0 +1,12 @@
+.mainDiv{
+    background-color: aqua;
+}
+#ulTasks{
+    background-color: white;
+    list-style: none;
+}
+.done{
+    color: grey;
+    text-decoration: line-through;
+    
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha284-Vkoo8x4CGsO2+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf22Q9Ifjh" crossorigin="anonymous"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+    
+    <!-- BootStrap 4 CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/js/all.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="width: 100vw ; height: 100vh; background-color: dimgray;">
+<div class="container " style="background-color: darkslategray;">
+    <h1 class="text-center " style="color: white;">Todo List</h1>
+    <div class="row mainDiv ">
+        <div class="col-12 col-md-7 ">
+            <div class="form-group">
+                <form onSubmit="return false;">
+                    <div class="mb-3">
+                      <label for="inpNewTask" class="form-label">Task</label>
+                      <input type="text" class="form-control" id="inpNewTask" aria-describedby="taskHelp">
+                      <div id="taskHelp" class="form-text">Add any task.</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-12 col-md-5">
+            <div class="row d-flex flex-column">
+                <div type="button" class="btn btn-success " id=btnAdd>
+                    <i class="fas fa-plus-square" aria-hidden="true"></i> Add</i>
+                </div>
+                <div class=" btn mt-2 btn-primary" id="btnSort"> sort </div>
+                <div class=" btn mt-2 btn-secondary" id="btnReset"> Reset </div>
+                <div class=" btn mt-2 btn-danger" id="btnCleanup"> Clear All </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Tasks Added -->
+    <ul class="row list-group m-2" id="ulTasks">
+    </ul>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
