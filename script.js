@@ -1,8 +1,8 @@
 // Naming the ids as variables
 let ulTasks=$('#ulTasks');
-let btnAdd=$('#btnAdd'); //abc
+let btnAdd=$('#btnAdd'); 
 let btnReset=$('#btnReset');
-let btnSort=$('#btnSort');
+let btnSort=$('#btnSort'); //abc2
 let btnCleanup=$('#btnCleanup');
 let inpNewTask=$('#inpNewTask');
 
