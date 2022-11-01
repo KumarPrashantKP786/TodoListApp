@@ -2,7 +2,7 @@
 let ulTasks=$('#ulTasks');
 let btnAdd=$('#btnAdd');
 let btnReset=$('#btnReset');
-let btnSort=$('#btnSort');
+let btnSort=$('#btnSorting');
 let btnCleanup=$('#btnCleanup');
 let inpNewTask=$('#inpNewTask');
 let abcdef=123;
