@@ -2,6 +2,7 @@
 let ulTasks=$('#ulTasks');
 let btnAdd=$('#btnAdd'); //abc
 let btnReset=$('#btnReset');
+let abc=123;
 let btnSort=$('#btnSort');
 let btnCleanup=$('#btnCleanup');
 let inpNewTask=$('#inpNewTask');
