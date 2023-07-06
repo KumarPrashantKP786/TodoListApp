@@ -1,4 +1,5 @@
-// Naming the ids as variables
+// Naming the ids as variable
+console.log("Soumya");
 let ulTasks=$('#ulTasks');
 let btnAdd=$('#btnAdd'); //abc
 let btnReset=$('#btnReset');
