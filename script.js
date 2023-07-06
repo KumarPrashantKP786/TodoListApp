@@ -1,4 +1,5 @@
-// Naming the ids as variables
+// Naming the ids as variable
+console.log("Soumya");
 let ulTasks=$('#ulTasks');
 let btnAdd=$('#btnAdd'); //abc
 let btnReset=$('#btnReset');
@@ -9,7 +10,7 @@ let inpNewTask=$('#inpNewTask');
 let abcdef=123;
 function addItem(){
     let todo=inpNewTask.val();
-    console.log("clicked");
+    console.log("clicked");    // raju
     ulTasks.append('<li>'+todo+'</li>');
     inpNewTask.val("");
 }
